@@ -18,6 +18,3 @@ sudo systemctl restart apache2
 
 # (Opcional) Instalar módulos PHP adicionales
 sudo apt install -y php-curl php-gd php-xml php-mbstring
-
-# Configuración del Firewall (Opcional)
-sudo ufw allow in "Apache Full"
